@@ -54,9 +54,13 @@ h1 {
 @media (max-width: 991px) and (min-width: 768px) {
   .menu-item {
     width: 45%;
+    margin: 10px;
+    float: left;
   }
   .menu-item:nth-child(3) {
     width: 100%;
+    float: none; 
+    clear: both; 
   }
 }
 
